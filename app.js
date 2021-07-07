@@ -19,7 +19,7 @@ addBtn.addEventListener("click", function(e) {
   notesObj.push(myObj);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   addTxt.value = "";
-  addtitle.value = "";
+  addTitle.value = "";
 //   console.log(notesObj);
   showNotes();
 });
